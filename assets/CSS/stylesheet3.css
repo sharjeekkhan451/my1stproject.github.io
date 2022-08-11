@@ -1,0 +1,851 @@
+@font-face {
+	src: url('../fonts/FuturaLT.ttf');
+	font-family: FuturaLT;
+}
+body {
+	margin: 0%;
+}
+.container {
+	width: 1230px;
+	margin: 0px auto;
+}
+.site-nav-ul ul {
+	list-style: none;
+	margin: 0;
+    padding: 0px;
+    text-align: right;
+}
+.site-nav-ul ul li {
+	padding: 20px;
+	display: inline-block;
+
+}
+.site-nav-ul ul li a {
+	text-decoration: none;
+    text-transform: uppercase;
+    line-height: 21px;
+    font-size: 16px;
+    color: #C99900;
+    font-weight: 500;
+    font-family: FuturaLT;
+    letter-spacing: 2px;
+}
+.site-nav {
+	border-bottom: 6px solid;
+    border-color: #C99900;
+}
+.home-banner img {
+	width: 100%;
+}
+.home-banner {
+   position: relative;
+}
+.home-banner-text {
+    position: absolute;
+    color: #ffffff;
+    width: 1230px;
+    bottom: 50px;
+}
+.home-banner-text h2 {
+	font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+.home-banner-text h2:after{
+	content: '';
+	background-color: #C99900;
+	width: 150px;
+	height: 5px;
+	display: block;
+}
+.img-bond {
+	width: 15%;
+    margin:0px auto;
+    display: inline-block;
+   
+}
+.img-wellcome {
+	width: 18%;
+	margin: 0px auto;
+    display: inline-block;
+}
+.img-cepi {
+	width: 19%;
+	margin: 0px auto;
+    display: inline-block;
+}
+.img-one {
+	width: 13%;
+	margin: 0px auto;
+    display: inline-block;
+}
+.img-ibt {
+	width: 14%;
+	argin: 0px auto;
+    display: inline-block;
+}
+.img-theirworld {
+	width: 15%;
+	margin: 0px auto;
+    display: inline-block;
+}
+.our-client-para {
+	letter-spacing: 2px;
+    font-size: 18px;
+    font-family: FuturaLT;
+    line-height: 32px;
+    margin-top: 35px;
+}
+.our-client-text h2 {
+	    font-size: 18px;
+    letter-spacing: 3px;
+     font-family: FuturaLT;
+     display: inline-block;
+    color: #C99900;
+    font-weight: 100;
+}    
+.our-client-text a {
+	text-decoration: none;
+    font-size: 18px;
+    font-family: FuturaLT;
+    color: black;
+    letter-spacing: 3px;
+}
+
+
+.our-client-img div {
+
+}
+.testimonial-main {
+	margin-top: 170px;
+}
+.testimonial-main .testimonial {
+	width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: FuturaLT;
+}
+.testimonial-main .testimonial p:after {
+    content: '';
+    background-color: #C99900;
+    width: 40px;
+    height: 2px;
+    display: block;
+    margin: 0px auto;
+    transform: rotate(-90deg);
+    margin-top: 50px;
+}
+.testimonial-main .testimonial h3{
+	margin-top: 50px;
+}
+.img-bond img {
+	max-width: 100%;
+    height: auto;
+}
+.img-wellcome img {
+	max-width: 100%;
+    height: auto;
+}
+.img-cepi img {
+	max-width: 86%;
+    height: auto;
+}
+.img-one img {
+    max-width: 100%;
+    height: auto;
+}
+.img-ibt img {
+	max-width: 100%;
+    height: auto;
+}
+.img-theirworld img {
+	max-width: 100%;
+    height: auto;
+}
+.our-client-img {
+	margin-top: 85px
+}
+.testimonial p {
+  font-size: 18px;
+    font-family: 'FuturaLT';
+    line-height: 31px;
+    color: #C99900;
+}
+.testimonial h3 {
+	font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'FuturaLT';
+    letter-spacing: 4px;
+}
+.testimonial h2 {
+	font-size: 22px;
+    font-family: 'FuturaLT';
+    color: #C19733;
+    letter-spacing: 5px;
+}
+.testimonial span {
+	font-size: 18px;
+    word-spacing: 4px;
+    font-family: 'FuturaLT';
+}
+.our-client-para p span {
+    text-transform: uppercase;
+    color: #C99900;
+    letter-spacing: 3px;
+}
+.back-butten {
+	margin-top: 20px;
+}
+.newz-and-storie-event {
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+}
+.newz-and-storie-story {
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+}
+.newz-and-storie-featured {
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+}
+.stories-tag h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: 18px;
+    font-weight: 200;
+}
+.stories-tag h2:after{
+    content: '';
+    background-color: #C99900;
+    width: 132px;
+    height: 5px;
+    display: block;
+}
+.stories-tag {
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+.newz-and-storie-event h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 10px;
+    line-height: 30px;
+}
+.newz-and-storie-event h3 {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 11px;
+    color: #C99900;
+    padding-bottom: 33px;
+}
+.newz-and-storie-event P {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+.newz-and-storie-event P:before{
+    content: '';
+    background-color: #C99900;
+    width: 195px;
+    height: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+.newz-and-storie-event a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 3px;
+    position: relative;
+}
+.newz-and-storie-event  a:after{
+    content: '';
+    background-color: #C99900;
+    width: 79px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 1s;
+    right: 0px;
+}
+
+.newz-and-storie-event:hover a:after {
+    width: 100%;
+}
+.newz-and-storie-story h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 7px;
+    line-height: 30px;
+}
+.newz-and-storie-story h3 {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #C99900;
+    letter-spacing: 7px;
+    padding-bottom: 10px;
+}
+.newz-and-storie-story p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+.newz-and-storie-story a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #000000;
+    letter-spacing: 3px;
+    position: relative;
+}
+.newz-and-storie-story p:before{
+    content: '';
+    background-color: #C99900;
+    width: 195px;
+    height: 5px;
+    display: block;
+    margin-bottom: 44px;
+}
+.newz-and-storie-story a:after{
+    content: '';
+    background-color: #C99900;
+    width: 79px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 1s;
+    right: 0px;
+}
+.newz-and-storie-story:hover a:after{
+    width: 100%;
+}
+.newz-and-storie-featured h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+}
+.newz-and-storie-featured h3 {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #C99900;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+}
+.newz-and-storie-featured p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+.newz-and-storie-featured a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 3px;
+    color: #000000;
+    position: relative;
+}
+.newz-and-storie-featured p:before{
+    content: '';
+    background-color: #C99900;
+    width: 195px;
+    height: 5px;
+    display: block;
+    margin-bottom: 30px;
+}
+.newz-and-storie-featured a:after{
+    content: '';
+    background-color: #C99900;
+    width: 79px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 1s;
+    right: 0px;
+}
+.newz-and-storie-featured:hover a:after{
+    width: 100%;
+}
+.featured-inbox h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    margin-top: 110px;
+    font-weight: 500;
+}
+.featured-inbox h2:after{
+     content: '';
+    background-color: #C99900;
+    width: 148px;
+    height: 5px;
+    display: block;
+    margin-top: 12px;
+}
+.inbox-style {
+    text-align: center;
+    margin-top: 72px;
+}
+.inbox-style .your-email input {
+    width: 60%;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #818181;
+    border: 1px solid #7070708c;
+    box-shadow: none;
+}
+.featured-inbox .submit input {
+    position: absolute;
+    float: right;
+    margin-left: -160px;
+    margin-top: 13px;
+    width: 151px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 7px 12px;
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 1px;
+    background-color: #C19733;
+    color: #FFFFFF;
+    font-weight: normal;
+    box-shadow: 0px 6px #00000029;
+    border: 1px solid #818181;
+}
+.row .about-us {
+    width: 49%;
+    display: inline-block;
+}
+.row .contact-us {
+    width: 49%;
+    display: inline-block;
+}
+.contact-us a {
+    float: right;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    font-weight: 100;
+    text-decoration: none;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-right: 101px;
+    margin-top: 42px;
+}
+.row {
+    background-color: #604B19;
+    height: 125px;
+}
+.footer-section {
+    background-color: #C19733;
+    height: 300px;
+}
+.footer-last {
+    background-color: #604B19;
+}
+.the-advocacy-team h2 {
+    margin: 0px
+}
+.footer-last-text {
+    height: 70px;   
+}
+.about-us h3:after{
+    content: '';
+    background-color: #C99900;
+    width: 146px;
+    height: 5px;
+    display: block;
+}
+.about-us h3 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    margin-top: 3pc;
+}
+.contact-us a:after{
+    content: '';
+    width: 80px;
+    height: 5px;
+    display: block;
+    background-color: #C99900;
+    margin-left: auto;
+}
+.the-advocacy-team {
+    width: 24%;
+    display: inline-block;
+    margin-top: 49px;
+}
+.the-advocacy-team h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    font-weight: 300;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+}
+.the-advocacy-team p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+.useful-link {
+    width: 22%;
+    display: inline-block;
+    margin-left: 85px;
+}
+.help {
+  width: 22%;
+  display: inline-block;  
+}
+.social-links {
+    width: 22%;
+  display: inline-block;
+  margin-left: 24px; 
+}
+.the-advocacy-team h2:after{
+    content: '';
+    background-color: #604B19;
+    width: 78px;
+    height: 5px;
+    display: block;
+}
+.useful-link h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.useful-link ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.useful-link ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 35px;
+}
+.useful-link h2:after{
+    content: '';
+    background-color: #604B19;
+    width: 62px;
+    height: 5px;
+    display: block;
+}
+.help h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.help ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 49px;
+    margin-top: 34px
+}
+.help ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    font-weight: 200;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.help h2:after {
+    content: '';
+    background-color: #604B19;
+    width: 75px;
+    height: 5px;
+    display: block;
+}
+.social-links h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    font-weight: 200;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+.social-links ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.social-links ul li {
+    padding: 13px;
+    display: inline-block;
+}
+.social-links img {
+    margin-bottom: 35px;
+}
+.social-links h2:after {
+    content: '';
+    background-color: #604B19;
+    width: 60px;
+    height: 5px;
+    display: block;
+}
+.footer-last-text h2 {
+    width: 55%;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    font-weight: lighter;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.footer-last-text a {
+    width: 30%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #C99900;
+    letter-spacing: 3px;
+}
+.home-footer-main {
+    margin-top: 122px;
+}
+.newz-and-storie-bond {
+	width: 30%;
+	display: inline-block;
+	margin: 15px;
+}
+.newz-and-storie-theirworld {
+	width: 30%;
+	display: inline-block;
+	margin: 15px;
+}
+.newz-and-storie-resolation {
+      width: 30%;
+	display: inline-block;
+	margin: 15px;	
+}
+.newz-and-storie-bond h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+}
+.newz-and-storie-bond h3 {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #C99900;
+    letter-spacing: 7px;
+    margin-bottom: 30px;
+}
+.newz-and-storie-bond p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.newz-and-storie-bond a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 3px;
+    color: #000000;
+    position: relative;
+}
+.newz-and-storie-bond p:before{
+    content: '';
+    background-color: #C99900;
+    width: 195px;
+    height: 5px;
+    display: block;
+    margin-bottom: 30px;
+}
+.newz-and-storie-bond a:after{
+    content: '';
+    background-color: #C99900;
+    width: 79px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 1s;
+    right: 0px;
+}
+.newz-and-storie-bond:hover a:after{
+    width: 100%;
+}
+.newz-and-storie-resolation h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+}
+.newz-and-storie-resolation h3 {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #C99900;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+}
+.newz-and-storie-resolation p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+.newz-and-storie-resolation a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 3px;
+    color: #000000;
+    position: relative;
+}
+.newz-and-storie-resolation p:before{
+    content: '';
+    background-color: #C99900;
+    width: 195px;
+    height: 5px;
+    display: block;
+    margin-bottom: 30px;
+}
+.newz-and-storie-resolation a:after{
+    content: '';
+    background-color: #C99900;
+    width: 79px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 1s;
+    right: 0px;
+}
+.newz-and-storie-resolation:hover a:after{
+    width: 100%;
+}	   	   
+.newz-and-storie-theirworld h2 {
+    font-size: 22px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+}
+.newz-and-storie-theirworld h3 {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    color: #C99900;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+}
+.newz-and-storie-theirworld p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+.newz-and-storie-theirworld a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    letter-spacing: 3px;
+    color: #000000;
+    position: relative;
+}
+.newz-and-storie-theirworld p:before{
+    content: '';
+    background-color: #C99900;
+    width: 195px;
+    height: 5px;
+    display: block;
+    margin-bottom: 30px;
+}
+.newz-and-storie-theirworld a:after{
+    content: '';
+    background-color: #C99900;
+    width: 79px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 1s;
+    right: 0px;
+}
+.newz-and-storie-theirworld:hover a:after{
+    width: 100%;
+}
+.stories-tag p {
+    font-size: 18px;
+    font-family: 'FuturaLT';
+    width: 1229px;
+    letter-spacing: 3px;
+}
+.tag-ul ul {
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+}	   	   
+.tag-ul ul li {
+	padding: 15px;
+    display: inline-block;
+}
+.tag-ul ul li a {
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'FuturaLT';
+    color: black;
+    letter-spacing: 2px;
+    position: relative;
+}
+.tag-ul .all a:after{
+	content: '';
+	background-color: #C99900;
+	width: 0px;
+	height: 5px;
+	display: block;
+	position: absolute;
+	transition: 0.6s;
+}
+.tag-ul .all:hover a:after{
+	width: 100%;
+}
+.tag-ul .policy a:after{
+	content: '';
+	background-color: #C99900;
+	width: 0px;
+	height: 5px;
+	display: block;
+	position: absolute;
+	transition: 0.6s;
+}
+.tag-ul .policy:hover a:after{
+	width: 100%;
+}
+.tag-ul .training a:after{
+	content: '';
+	background-color: #C99900;
+	width: 0px;
+	height: 5px;
+	display: block;
+	position: absolute;
+	transition: 0.6s;
+}
+.tag-ul .training:hover a:after{
+	width: 100%;
+}
